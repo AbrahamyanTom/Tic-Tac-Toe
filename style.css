@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:greenyellow;
+}
+body{
+    background-image: url("https://katpluk.files.wordpress.com/2016/01/e19e80e19eb6e19e8fe19f8be19e97e19f92e19e9be19ebbe19e80-background2.jpg?w=900");
+}
+
+.wrapper{   
+    width: 80%;
+    height: auto;
+    margin: 7% auto;
+}
+
+.tictactoe{
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+    border: 2px solid aqua;
+    overflow: hidden;
+}
+
+.block{
+    width: 90px;
+    height: 90px;
+    background-color: aqua;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-size: 35px;
+    font-weight:bolder;
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+}
+
+.player{
+    text-align: center;
+    margin-bottom: 50px;
+}
